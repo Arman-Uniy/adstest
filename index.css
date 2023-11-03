@@ -256,6 +256,21 @@
   text-decoration: none;
 }
 .home-container17 {
+  width: 294px;
+  height: 280px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-image11 {
+  width: 200px;
+  object-fit: cover;
+  border-color: #ff8601;
+  border-width: 2px;
+  border-radius: var(--dl-radius-radius-radius8);
+}
+.home-container18 {
   width: 100%;
   border: 2px dashed rgba(120, 120, 120, 0.4);
   cursor: e-resize;
