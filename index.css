@@ -263,12 +263,16 @@
   flex-direction: column;
   justify-content: center;
 }
+.home-navlink10 {
+  display: contents;
+}
 .home-image11 {
   width: 200px;
   object-fit: cover;
   border-color: #ff8601;
   border-width: 2px;
   border-radius: var(--dl-radius-radius-radius8);
+  text-decoration: none;
 }
 .home-container18 {
   width: 100%;
