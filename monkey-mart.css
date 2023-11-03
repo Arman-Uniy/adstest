@@ -1,18 +1,40 @@
 .monkey-mart-container {
   width: 100%;
-  height: 100%;
+  height: 900;
   display: flex;
   overflow: auto;
   min-height: 100vh;
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
-  background-color: #000000;
+  background-color: #222222;
 }
 .monkey-mart-container1 {
   width: 100%;
-  height: 849px;
+  height: 853px;
 }
 .monkey-mart-container2 {
   display: contents;
+}
+.monkey-mart-container3 {
+  width: 100%;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.monkey-mart-text {
+  color: #ffffff;
+  align-self: center;
+}
+.monkey-mart-text1 {
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 900;
+}
+.monkey-mart-text3 {
+  color: #ffffff;
+}
+.monkey-mart-text4 {
+  color: #ffffff;
 }

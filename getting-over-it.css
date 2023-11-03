@@ -1,17 +1,42 @@
 .getting-over-it-container {
   width: 100%;
-  height: 100%;
+  height: 900;
   display: flex;
   overflow: auto;
   min-height: 100vh;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
+  justify-content: flex-start;
+  background-color: #222222;
 }
 .getting-over-it-container1 {
   width: 100%;
-  height: 849px;
-  align-self: flex-start;
+  height: 853px;
+  opacity: 0.99;
+  align-self: center;
 }
 .getting-over-it-container2 {
   display: contents;
+}
+.getting-over-it-container3 {
+  width: 100%;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.getting-over-it-text {
+  color: #ffffff;
+  align-self: center;
+}
+.getting-over-it-text1 {
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 900;
+}
+.getting-over-it-text3 {
+  color: #ffffff;
+}
+.getting-over-it-text4 {
+  color: #ffffff;
 }
