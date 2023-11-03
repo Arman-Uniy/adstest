@@ -8,10 +8,13 @@
 }
 .home-container01 {
   width: 100%;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
   height: 34px;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
+}
+.home-text {
+  color: #464646;
 }
 .home-container02 {
   width: 100%;
@@ -34,13 +37,13 @@
   align-items: center;
   flex-direction: column;
 }
-.home-text {
+.home-text1 {
   color: #ff8601;
   font-size: 45px;
   font-family: "Arial Black";
   text-transform: uppercase;
 }
-.home-text1 {
+.home-text2 {
   color: rgb(255, 134, 1);
   font-size: 1em;
 }
@@ -65,10 +68,14 @@
 .home-image01 {
   width: 200px;
   object-fit: cover;
+  transition: 0.3s;
   border-color: #ff8601;
-  border-width: 2px;
+  border-width: medium;
   border-radius: var(--dl-radius-radius-radius8);
   text-decoration: none;
+}
+.home-image01:hover {
+  border: inherit;
 }
 .home-container06 {
   width: 294px;
@@ -84,10 +91,14 @@
 .home-image02 {
   width: 200px;
   object-fit: cover;
+  transition: 0.3s;
   border-color: #ff8601;
-  border-width: 2px;
+  border-width: medium;
   border-radius: var(--dl-radius-radius-radius8);
   text-decoration: none;
+}
+.home-image02:hover {
+  border: inherit;
 }
 .home-container07 {
   width: 294px;
@@ -103,10 +114,14 @@
 .home-image03 {
   width: 200px;
   object-fit: cover;
+  transition: 0.3s;
   border-color: #ff8601;
-  border-width: 2px;
+  border-width: medium;
   border-radius: var(--dl-radius-radius-radius8);
   text-decoration: none;
+}
+.home-image03:hover {
+  border: inherit;
 }
 .home-container08 {
   width: 294px;
@@ -122,10 +137,14 @@
 .home-image04 {
   width: 200px;
   object-fit: cover;
+  transition: 0.3s;
   border-color: #ff8601;
-  border-width: 2px;
+  border-width: medium;
   border-radius: var(--dl-radius-radius-radius8);
   text-decoration: none;
+}
+.home-image04:hover {
+  border: inherit;
 }
 .home-container09 {
   width: 100%;
@@ -148,10 +167,14 @@
 .home-image05 {
   width: 200px;
   object-fit: cover;
+  transition: 0.3s;
   border-color: #ff8601;
-  border-width: 1px;
+  border-width: medium;
   border-radius: var(--dl-radius-radius-radius8);
   text-decoration: none;
+}
+.home-image05:hover {
+  border: inherit;
 }
 .home-container11 {
   width: 294px;
@@ -167,10 +190,14 @@
 .home-image06 {
   width: 200px;
   object-fit: cover;
+  transition: 0.3s;
   border-color: #ff8601;
-  border-width: 1px;
+  border-width: medium;
   border-radius: var(--dl-radius-radius-radius8);
   text-decoration: none;
+}
+.home-image06:hover {
+  border: inherit;
 }
 .home-container12 {
   width: 294px;
@@ -186,10 +213,14 @@
 .home-image07 {
   width: 200px;
   object-fit: cover;
+  transition: 0.3s;
   border-color: #ff8601;
-  border-width: 1px;
+  border-width: medium;
   border-radius: var(--dl-radius-radius-radius8);
   text-decoration: none;
+}
+.home-image07:hover {
+  border: inherit;
 }
 .home-container13 {
   width: 294px;
@@ -205,10 +236,14 @@
 .home-image08 {
   width: 200px;
   object-fit: cover;
+  transition: 0.3s;
   border-color: #ff8601;
-  border-width: 2px;
+  border-width: medium;
   border-radius: var(--dl-radius-radius-radius8);
   text-decoration: none;
+}
+.home-image08:hover {
+  border: inherit;
 }
 .home-container14 {
   width: 100%;
@@ -231,10 +266,14 @@
 .home-image09 {
   width: 200px;
   object-fit: cover;
+  transition: 0.3s;
   border-color: #ff8601;
-  border-width: 2px;
+  border-width: medium;
   border-radius: var(--dl-radius-radius-radius8);
   text-decoration: none;
+}
+.home-image09:hover {
+  border: inherit;
 }
 .home-container16 {
   width: 294px;
@@ -250,10 +289,14 @@
 .home-image10 {
   width: 200px;
   object-fit: cover;
+  transition: 0.3s;
   border-color: #ff8601;
-  border-width: 2px;
+  border-width: medium;
   border-radius: var(--dl-radius-radius-radius8);
   text-decoration: none;
+}
+.home-image10:hover {
+  border: inherit;
 }
 .home-container17 {
   width: 294px;
@@ -269,17 +312,12 @@
 .home-image11 {
   width: 200px;
   object-fit: cover;
+  transition: 0.3s;
   border-color: #ff8601;
-  border-width: 2px;
+  border-width: medium;
   border-radius: var(--dl-radius-radius-radius8);
   text-decoration: none;
 }
-.home-container18 {
-  width: 100%;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  cursor: e-resize;
-  height: 163px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
+.home-image11:hover {
+  border: inherit;
 }
