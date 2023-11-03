@@ -1,0 +1,42 @@
+.eumjsv2-container {
+  width: 100%;
+  height: 900;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #222222;
+}
+.eumjsv2-container1 {
+  width: 100%;
+  height: 853px;
+  opacity: 0.99;
+  align-self: center;
+}
+.eumjsv2-container2 {
+  display: contents;
+}
+.eumjsv2-container3 {
+  width: 100%;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.eumjsv2-text {
+  color: #ffffff;
+  align-self: center;
+}
+.eumjsv2-text1 {
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 900;
+}
+.eumjsv2-text3 {
+  color: #ffffff;
+}
+.eumjsv2-text4 {
+  color: #ffffff;
+}
