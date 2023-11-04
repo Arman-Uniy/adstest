@@ -1,4 +1,4 @@
-.basketball-random-container {
+.soccer-random-container {
   width: 100%;
   height: 900;
   display: flex;
@@ -9,33 +9,34 @@
   justify-content: flex-start;
   background-color: #222222;
 }
-.basketball-random-container1 {
+.soccer-random-container1 {
   width: 100%;
-  height: 852px;
+  height: 853px;
   opacity: 0.99;
+  align-self: center;
 }
-.basketball-random-container2 {
+.soccer-random-container2 {
   display: contents;
 }
-.basketball-random-container3 {
+.soccer-random-container3 {
   width: 100%;
   height: 47px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.basketball-random-text {
+.soccer-random-text {
   color: #ffffff;
   align-self: center;
 }
-.basketball-random-text1 {
+.soccer-random-text1 {
   font-size: 1em;
   font-style: normal;
   font-weight: 900;
 }
-.basketball-random-text3 {
+.soccer-random-text3 {
   color: #ffffff;
 }
-.basketball-random-text4 {
+.soccer-random-text4 {
   color: #ffffff;
 }
